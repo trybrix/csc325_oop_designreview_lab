@@ -9,7 +9,7 @@ package com.mycompany.csc325_oop_designreview_lab;
  * @author MoaathAlrajab
  */
 public abstract class Human {
-    private String name;
+	private String name;
 	private String address;
 	private short age;
 
@@ -19,23 +19,28 @@ public abstract class Human {
 		this.age = age;
 	}
 
+	// getter name
 	public String getName() {
 		return name;
 	}
 
+	// setter name
 	public void setName(String name) {
 		this.name = name;
 	}
 
-	public abstract String getAddress() ;
+	// abstract getter address
+	public abstract String getAddress();
 
+	// abstract setter address
 	public abstract void setAddress(String address);
 
-
+	// getter age
 	public short getAge() {
 		return age;
 	}
 
+	// setter age
 	public void setAge(short age) {
 		this.age = age;
 	}
